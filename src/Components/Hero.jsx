@@ -21,11 +21,12 @@ const Hero = () => {
 
                 className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl '>Surender</motion.h1>
                 <motion.span 
+                
                 variants={container(0.5)}
                 initial='hidden'
                 animate='visible'
                 className='bg-gradient-to-r from-pink-300 via-slate-400 
-                to-purple-600 bg-clip-text text-3xl tracking-tight text-transparent '>Frontend Developer</motion.span>
+                to-purple-600 bg-clip-text text-3xl tracking-tight text-transparent '><p className='subhead'>Frontend Developer</p></motion.span>
                 <motion.p
                 variants={container(1)}
                 initial='hidden'
@@ -46,7 +47,22 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-      
+        <style jsx>{`
+        .subhead{
+            background:linear-gradient(to right,#fc72ff,#8f68ff,#487bff,#8f68ff,#fc72ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+        }
+        @keyframes animate-gradient {
+    to{
+        background-position: 200%;
+    }
+    
+   }
+      `}</style>
     </div>
   )
 }

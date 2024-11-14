@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project1.png";
-import project2 from "../assets/projects/project2.png";
-import project3 from "../assets/projects/project3.png";
+import project1 from "../assets/projects/Project1.png";
+import project2 from "../assets/projects/Project2.png";
+import project3 from "../assets/projects/Project3.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
